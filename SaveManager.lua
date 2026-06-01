@@ -12,7 +12,7 @@ local SaveManager = {}
 SaveManager.Version = "1.0.0"
 
 local function getWriteFile()
-	returnwritefile or writefile
+	return writefile
 end
 
 local function getReadFile()
